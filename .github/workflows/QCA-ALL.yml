@@ -33,9 +33,9 @@ jobs:
       #max-parallel: 3
       matrix:
         CONFIG: [IPQ807X-WIFI-YES]
-        #SOURCE: [VIKINGYFY/immortalwrt]
-        SOURCE: [immortalwrt/immortalwrt]
-        BRANCH: [openwrt-24.10]
+        SOURCE: [VIKINGYFY/immortalwrt]
+        #SOURCE: [immortalwrt/immortalwrt]
+        BRANCH: [main]
 
     #调用公用编译核心WRT-CORE.yml
     uses: ./.github/workflows/WRT-CORE.yml
